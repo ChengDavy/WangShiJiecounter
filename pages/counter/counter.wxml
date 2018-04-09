@@ -1,0 +1,66 @@
+<view>
+ <scroll-view class='myScroll' scoll-y >
+  <!-- <view class='myTittle'>
+  <text>车险净计算器</text>
+  </view> -->
+
+  <view class='myRow'> 
+   <text class='myM'> 交强价格(元) </text>
+   <input class='myInput' id='jjp' placeholder='交强价格' type='digit' bindinput='jjpinput' > </input>
+  </view>
+  <view class='myRow'> 
+   <text class='myM'> 车船价格(元) </text>
+   <input class='myInput' id='ccp' placeholder='车船价格' type='digit' bindinput='ccpinput'> </input>
+  </view>
+  <view class='myRow'> 
+   <text class='myM'> 商业价格(元) </text>
+   <input class='myInput' id='syp' placeholder='商业价格' type='digit' bindinput='sypinput'> </input>
+  </view>
+  <view class='myRow'> 
+   <text class='myM'> 交强折扣(%) </text>
+   <input class='myInput'id='jjc' placeholder='交强折扣' type='digit' bindinput='jjcinput'> </input>
+  </view>
+  <view class='myRow'> 
+   <text class='myM'> 车船折扣(%) </text>
+   <input class='myInput' id='ccc' placeholder='车船折扣' type='digit' bindinput='cccinput'> </input>
+  </view>
+  <view class='myRow'> 
+   <text class='myM'> 商业折扣(%) </text>
+   <input class='myInput' id='syc' placeholder='商业折扣' type='digit' bindinput='sycinput'> </input>
+  </view>
+
+  <button class='counterB' bindtap='counter' >计算</button>
+
+ <view class='blank'>
+
+  <text class='bText' id='all'>{{allText}}</text>
+  <view class='con'>
+   <text class='bText' id='cun'>{{cunText}}</text>
+   <text class='yText' id='bf'>{{flText}}</text>
+  </view>
+  <view class='con'>
+   <text class='bText' id='NOF'>{{nofText}}</text>
+   <text class='yText' id='fl'>{{bfText}}</text>
+  </view>
+ 
+ </view>
+
+  <view class='blank2'>
+   <view class='message'> 
+   <text class='bText2'>美联盛航车险   </text>
+   <text class='bText2'>地址: 河南平顶山</text>
+   <!-- <text class='bText2'>联系人: 李琪</text> -->
+   </view>
+   <view class='message'> 
+   <!-- <text class='bText2'>康车保车险   </text> -->
+   <text class='bText2'>联系人: 王世杰</text>
+   <text class='bText2'>手机: 17637550001</text>
+  
+   </view>
+  
+  <button class='counterC' bindtap='callMe'>联系我</button>
+
+ </view>
+
+ </scroll-view>
+</view>

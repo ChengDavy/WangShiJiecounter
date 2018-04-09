@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/counter/counter",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美联盛航净费计算器",
+    "navigationBarTextStyle":"black"
+  }
+}
